@@ -3,3 +3,41 @@ body {
   height: 100%;
   margin: 0;
 }
+h1{
+  text-align: center;
+}
+  /* Center Image */
+  #featured-property figure {
+    text-align: center;
+  }
+
+  /* Jazzed up Navigation Links */
+  header nav a {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  /* Updated Image Caption */
+  #featured-property figcaption {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  /* Updated Text Block */
+  #featured-property p {
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  /* Make Details Section Horizontal */
+  #details div {
+    float: left;
+    width: 25%;
+    text-align: center;
+    background-color: #ff0101;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+</style>
